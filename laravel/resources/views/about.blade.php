@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="about-container container-fluid d-flex flex-column flex-lg-row gap-3">
+<div class="about-container container-fluid d-flex flex-column flex-lg-row gap-5">
 @if(!empty($abouts))
     @foreach($abouts as $about)
         <div class="card card-border col-12 col-lg-6 p-3">
