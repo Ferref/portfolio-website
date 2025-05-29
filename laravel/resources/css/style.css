@@ -4,7 +4,6 @@
     padding: 0;
 }
 
-
 @font-face {
     font-family: SpaceMono-Regular;
     src: url('fonts/SpaceMono-Regular.ttf');
@@ -12,7 +11,7 @@
 
 body {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     font-family: SpaceMono-Regular, sans-serif;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #39FF14);
     background-size: 400% 400%;
@@ -43,10 +42,6 @@ body {
     }
 }
 
-/* Home */
-.home-container {
-    height: 100%;
-}
 
 .project-container {
     height: 100%;
@@ -54,7 +49,6 @@ body {
 
 
 /* Projects */
-
 .card-border {
     border: 3px solid black;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
