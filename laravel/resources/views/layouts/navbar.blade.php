@@ -9,7 +9,7 @@
         <a class="nav-link text-light" href="#">About me</a>
       </li>
       <li class="nav-item mx-3">
-        <a class="nav-link text-light" href="#">Favourite projects</a>
+        <a class="nav-link text-light" href="#">Pet projects</a>
       </li>
       <li class="nav-item mx-3">
         <a class="nav-link text-light" href="#">Contact</a>
