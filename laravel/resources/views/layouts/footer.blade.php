@@ -9,6 +9,10 @@
     <a class="btn btn-primary btn-floating m-1" style="background-color: #333333" href="https://github.com/Ferref" role="button"><i class="bi bi-github"></i></a>
     <!-- Linkedin -->
     <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/ferenc-kov%C3%A1cs-0a887a337/" role="button"><i class="bi bi-linkedin"></i></a>
+    <!-- Codewars -->
+    <a class="btn btn-primary btn-floating m-1" style="background-color: #f05656" href="https://www.codewars.com/users/Ferref" role="button"><i class="bi bi-code"></i></a>
+    <!-- Leetcode -->
+    <a class="btn btn-primary btn-floating m-1" style="background-color: #2c2c2c" href="https://leetcode.com/u/kovacsferi/" role="button"><i class="bi bi-code"></i></a>
   </section>
   <!-- Copyright -->
   <div class="d-flex flex-column justify-content-center bg-dark text-light m-1">

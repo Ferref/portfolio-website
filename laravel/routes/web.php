@@ -6,14 +6,10 @@ use Illuminate\Support\Facades\Route;
 
 
 // Views
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [AboutController::class, 'index'])
+    ->name('about');
 
 //  Controllers
 Route::get('/projects', [ProjectController::class, 'index'])
     ->name('projects');
-
-Route::get('/about', [AboutController::class, 'index'])
-    ->name('about');
 

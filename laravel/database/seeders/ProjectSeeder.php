@@ -22,7 +22,7 @@ class ProjectSeeder extends Seeder
                 'img_path' => 'breaking_bad_analysis.jpg'
             ],
             [
-                'name' => 'DungeonNiJs',
+                'name' => 'DungeonNiJs (in progress)',
                 'description' => "A 2D platformer game developed using Laravel and JavaScript.",
                 'link' => 'https://github.com/Ferref/DungeonNiJs',
                 'img_path' => 'loading.jpg'
