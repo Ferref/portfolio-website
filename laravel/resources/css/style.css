@@ -43,11 +43,6 @@ body {
 }
 
 
-.project-container {
-    height: 100%;
-}
-
-
 /* Projects */
 .card-border {
     border: 3px solid black;
