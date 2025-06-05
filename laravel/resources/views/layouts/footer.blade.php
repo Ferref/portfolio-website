@@ -12,7 +12,7 @@
     <!-- Codewars -->
     <a class="btn btn-dark btn-floating m-1" style="background-color: #f05656" href="https://www.codewars.com/users/Ferref" role="button"><i class="bi bi-code"></i></a>
     <!-- Leetcode -->
-    <a class="d-none d-md-block btn btn-dark btn-floating m-1" style="background-color: #2c2c2c" href="https://leetcode.com/u/kovacsferi/" role="button"><i class="bi bi-code"></i></a>
+    <a class="d-none d-inline btn btn-dark btn-floating m-1" style="background-color: #2c2c2c" href="https://leetcode.com/u/kovacsferi/" role="button"><i class="bi bi-code"></i></a>
   </section>
   <!-- Copyright -->
   <div class="d-flex flex-column justify-content-center bg-dark text-light m-1">
