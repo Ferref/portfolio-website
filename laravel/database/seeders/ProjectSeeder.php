@@ -15,6 +15,12 @@ class ProjectSeeder extends Seeder
     {
         DB::table('projects')->insert([
             [
+                'name' => 'ReelMovies',
+                'description' => 'Save it now, watch it later with ReelMovies.',
+                'link' => 'https://github.com/Ferref/ReelMovies',
+                'img_path' => 'reelmovies.png'
+            ],
+            [
                 'name' => 'Breaking Bad Analysis',
                 'description' => "This project presents a fun and insightful data
                 analysis of the iconic TV series “Breaking Bad”, using Python and the Pandas library.",
@@ -22,12 +28,6 @@ class ProjectSeeder extends Seeder
                 'img_path' => 'breaking_bad_analysis.jpg'
             ],
             [
-                'name' => 'DungeonNiJs (in progress)',
-                'description' => "A 2D platformer game developed using Laravel and JavaScript.",
-                'link' => 'https://github.com/Ferref/DungeonNiJs',
-                'img_path' => 'loading.jpg'
-            ],
-                        [
                 'name' => 'Flatwhite',
                 'description' => "A self-made Python module designed to simplify everyday tasks.",
                 'link' => 'https://github.com/Ferref/flatwhite',

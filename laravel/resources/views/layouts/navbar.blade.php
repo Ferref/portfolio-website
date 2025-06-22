@@ -8,10 +8,10 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
       <ul class="navbar-nav d-flex align-items-center">
         <li class="nav-item active mx-3">
-          <a class="nav-link text-light" href="{{ route('about') }}">About me</a>
+          <a class="nav-link neonize" href="{{ route('about') }}">About me</a>
         </li>
         <li class="nav-item mx-3">
-          <a class="nav-link text-light" href="{{ route('projects') }}">Pet projects</a>
+          <a class="nav-link neonize" href="{{ route('projects') }}">Pet projects</a>
         </li>
       </ul>
     </div>
