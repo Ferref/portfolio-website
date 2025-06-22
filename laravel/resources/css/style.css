@@ -9,25 +9,38 @@
     src: url('fonts/SpaceMono-Regular.ttf');
 }
 
+
 body {
-    height: 100vh;
-    width: 100vw;
-    font-family: SpaceMono-Regular, sans-serif;
-    background: linear-gradient(-45deg, #0f0c29, #00ff9f, #0f0c29);
-    background-size: 800% 800%;
-	animation: gradient 60s ease infinite;
+  margin: 0;
+  height: 100vh;
+  background: black;
+  color: #39ff14;
+  font-family: 'Share Tech Mono', monospace;
+
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 0 0 5px #39ff14;
+  white-space: nowrap;
+}
+
+.blinking-underscore {
+  animation: blink 1s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
 }
 
 
@@ -87,4 +100,30 @@ body {
 
 .border-neonize:hover {
     border-color: #39ff14;
+}
+
+.border-light-bottom {
+    border-bottom: 1px solid #c800ff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
+}
+
+.border-light-top {
+    border-top: 1px solid #c800ff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
+}
+
+.custom-text-light {
+    color: white;
+}
+
+.card {
+    background: linear-gradient(145deg, #0a0a0a, #1a1a1a);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2px);
 }

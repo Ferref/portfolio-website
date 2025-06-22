@@ -1,6 +1,6 @@
 <!-- Footer -->
   <!-- Grid container -->
-  <div class="container-fluid position-fixed bottom-0 bg-custom-dark d-flex justify-content-between">
+  <div class="container-fluid position-fixed bottom-0 bg-custom-dark d-flex justify-content-between border-light-top">
     <!-- Section: Social media -->
   <section class="m-1">
     <!-- Gmail -->
