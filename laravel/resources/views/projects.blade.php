@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="project-container container-fluid d-flex flex-column flex-lg-row gap-4 py-5">
-    <div class="card-container container-fluid h-50 d-flex flex-row gap-3 flex-column flex-md-row">
+<div class="project-container container-fluid d-flex flex-column flex-lg-row gap-4 py-5 p-0">
+    <div class="card-container container-fluid h-50 d-flex flex-row gap-3 flex-column flex-md-row p-0">
         @if(!empty($projects))
             @foreach($projects as $project)
                 <div class="card card-border col-12 col-lg-6 col-xl-4 p-3">

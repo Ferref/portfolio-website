@@ -12,7 +12,7 @@
 <header>
     @include('layouts.navbar')
 </header>
-    <div class="main-container p-5 d-flex justify-content-center align-items-center flex-column">
+    <div class="main-container py-5 d-flex justify-content-center align-items-center flex-column">
         @include('layouts.bg-anim')
         @yield('content')
     </div>
