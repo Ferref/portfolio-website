@@ -13,9 +13,9 @@
     @include('layouts.navbar')
 </header>
 
-<div class="main-container">
-    @yield('content')
-</div>
+    <div class="main-container p-5 d-flex justify-content-center align-items-center">
+        @yield('content')
+    </div>
 
 <footer>
     @include('layouts.footer')

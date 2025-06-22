@@ -1,6 +1,6 @@
 <!-- Footer -->
   <!-- Grid container -->
-  <div class="container-fluid position-fixed bottom-0 bg-dark d-flex justify-content-between">
+  <div class="container-fluid position-fixed bottom-0 bg-custom-dark d-flex justify-content-between">
     <!-- Section: Social media -->
   <section class="m-1">
     <!-- Gmail -->
@@ -15,7 +15,7 @@
     <a class="d-none d-md-inline btn btn-dark btn-floating m-1" style="background-color: #2c2c2c" href="https://leetcode.com/u/kovacsferi/" role="button"><i class="bi bi-code"></i></a>
   </section>
   <!-- Copyright -->
-  <div class="d-flex flex-column justify-content-center bg-dark text-light m-1">
+  <div class="d-flex flex-column justify-content-center text-light m-1">
     © 2025 Copyright
   </div>
 </div>
