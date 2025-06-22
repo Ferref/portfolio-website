@@ -16,7 +16,6 @@
         @include('layouts.bg-anim')
         @yield('content')
     </div>
-        
 <footer>
     @include('layouts.footer')
 </footer>
