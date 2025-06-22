@@ -6,7 +6,7 @@
         <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner align-items-stretch">
                 @foreach($abouts as $index => $about)
-                    <div class="carousel-item w-100 {{ $index === 0 ? 'active' : '' }}">
+                    <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
                         <div class="d-flex justify-content-center align-items-center carousel-slide-wrapper">
                             <div class="card card-border carousel-card text-start">
                                 <img src="{{ asset('images/abouts/' . $about->img_path) }}" class="card-img-top" alt="{{ $about['name'] }}">
