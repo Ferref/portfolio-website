@@ -27,8 +27,8 @@ class AboutSeeder extends Seeder
             ],
             [
                 'title' => 'Real life experience',
-                'description' => 'As an intern, I had the opportunity to contribute 
-                    to the development of a large-scale data warehouse for a well-known organization.',
+                'description' => 'As an intern, I contributed to the development of a large-scale data warehouse for a well-known organization.
+                I enjoy exploring different methods for storing, structuring, and managing data efficiently.',
                 'img_path' => 'database.jpg'
             ],
             
