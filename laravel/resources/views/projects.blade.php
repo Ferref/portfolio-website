@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="project-container container-fluid d-flex flex-column flex-lg-row gap-4 pb-5">
+<div class="project-container container-fluid d-flex flex-column flex-lg-row gap-4 py-5">
     <div class="card-container container-fluid h-50 d-flex flex-row gap-3 flex-column flex-md-row">
         @if(!empty($projects))
             @foreach($projects as $project)
